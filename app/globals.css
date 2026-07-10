@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --mouse-animation-color: rgba(87, 106, 157, 0.15);
+}
+
+.dark {
+  --background: #0f172a;
+  --foreground: #94a3b8;
+  --mouse-animation-color: rgba(29, 78, 216, 0.15);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-x {
+  @apply px-6 mx-auto;
+}
+
+.container-y {
+  @apply py-4;
+}
+
+.main-text {
+  @apply text-black/90 dark:text-slate-400;
+}
