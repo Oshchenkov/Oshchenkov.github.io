@@ -18,7 +18,7 @@ export default function Main({
   projectsSectionRef: Ref<HTMLDivElement>;
 }) {
   return (
-    <main className="pt-24 lg:w-1/2 lg:py-24">
+    <main className="pt-10 lg:w-1/2 lg:py-[10%]">
       {/* <!-- About Section --> */}
       <section
         id={aboutData.id}

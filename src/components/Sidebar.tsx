@@ -31,9 +31,9 @@ export default function Sidebar({
           {aboutData.position}
         </h2>
         <p className="mt-4 lg:max-w-xs text-lg leading-relaxed fade-in stagger-2">
-          Senior Full-Stack Engineer with 10+ years of production experience
-          designing and scaling high-throughput architectures across Enterprise
-          E-commerce, Fintech, and B2B SaaS ecosystems.
+          10+ years of production experience designing and scaling
+          high-throughput architectures across Enterprise E-commerce, Fintech,
+          and B2B SaaS ecosystems.
         </p>
 
         {/* <!-- Desktop Navigation --> */}
@@ -73,7 +73,7 @@ export default function Sidebar({
         </nav>
       </div>
 
-      <div className="flex items-center  gap-6 lg:mt-0 mt-8 fade-in stagger-4">
+      <div className="flex items-center  gap-6 lg:mt-4 mt-8 fade-in stagger-4">
         {/* <!-- Social Links --> */}
         <ul
           className="ml-1 flex items-center gap-5 self-center"
