@@ -17,6 +17,22 @@ export default function Main({
   referenceSectionRef: Ref<HTMLDivElement>;
   projectsSectionRef: Ref<HTMLDivElement>;
 }) {
+  function skillsTemplate(skills: string[]) {
+    return (
+      <ul className="mt-2 flex flex-wrap">
+        {skills.map((skill, skillIdx) => {
+          return (
+            <li key={skillIdx} className="mr-1.5 mt-2">
+              <div className="flex items-center rounded-full bg-teal-50 px-3 py-1 text-xs font-medium leading-5 text-teal-700 dark:bg-teal-400/10 dark:text-teal-300">
+                {skill}
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    );
+  }
+
   return (
     <main className="pt-10 lg:w-1/2 lg:py-[10%]">
       {/* <!-- About Section --> */}
@@ -27,9 +43,12 @@ export default function Main({
       >
         <SectionTitle>Skills</SectionTitle>
         <div className="space-y-4 text-lg leading-relaxed z-10">
-          <div
-            dangerouslySetInnerHTML={{ __html: aboutData.description }}
-          ></div>
+          {aboutData.skills.map((skillCategory, idx) => (
+            <div key={idx} className="my-4 ">
+              <div className="">{skillCategory.name}:</div>
+              {skillsTemplate(skillCategory.list)}
+            </div>
+          ))}
         </div>
       </section>
 
@@ -191,6 +210,26 @@ export default function Main({
               </div>
             );
           })}
+        </div>
+      </section>
+
+      <section id="languages" className="mb-24 scroll-mt-24 ">
+        <SectionTitle>Languages</SectionTitle>
+        <div className="space-y-4 text-lg leading-relaxed z-10">
+          <ul className="mb-2 pl-4 lg:pl-8 text-sm list-disc">
+            {[
+              "English (B2)",
+              "Ukrainian (C2)",
+              "Russian (C2)",
+              "Spanish (A1)",
+            ].map((item, idx) => {
+              return (
+                <li key={idx} className="text-base mb-2">
+                  {item}
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </section>
     </main>

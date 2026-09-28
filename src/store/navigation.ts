@@ -11,6 +11,10 @@ export const navigationData = [
     id: "projects",
     name: "Projects",
   },
+  {
+    id: "languages",
+    name: "Languages",
+  },
 ];
 
 export type NavigationData = typeof navigationData;
