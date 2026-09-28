@@ -27,7 +27,7 @@ export default function Sidebar({
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-slate-900  fade-in dark:text-slate-200">
           {aboutData.name}
         </h1>
-        <h2 className="my-8 text-3xl sm:text-xl  font-semibold tracking-tight text-slate-800 fade-in stagger-1 dark:text-slate-200">
+        <h2 className="my-8 text-2xl sm:text-xl  font-semibold tracking-tight text-slate-800 fade-in stagger-1 dark:text-slate-200">
           {aboutData.position}
         </h2>
         <p className="mt-4 lg:max-w-xs text-lg leading-relaxed fade-in stagger-2">
