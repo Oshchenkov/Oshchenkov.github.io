@@ -90,7 +90,7 @@ export default function Sidebar({
           </li>
           <li className="flex items-conter">
             <a
-              href="/Vitalii_Oshchenkov, CV.pdf"
+              href="https://docs.google.com/document/d/1lFVLUJKRq61dfvhkfwKswpP4BCPScRlxmVo2gqlYgj8/edit?usp=sharing"
               className="text-slate-500 hover:text-teal-600 transition-colors dark:text-slate-400 dark:hover:text-teal-300"
               aria-label="Download CV"
               target="_blank"
