@@ -24,10 +24,10 @@ export default function Sidebar({
   return (
     <aside className="sidebar lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-[10%] overflow-auto">
       <div>
-        <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl fade-in dark:text-slate-200">
+        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-slate-900  fade-in dark:text-slate-200">
           {aboutData.name}
         </h1>
-        <h2 className="my-8 text-lg sm:text-4xl  font-semibold tracking-tight text-slate-800 fade-in stagger-1 dark:text-slate-200">
+        <h2 className="my-8 text-3xl sm:text-xl  font-semibold tracking-tight text-slate-800 fade-in stagger-1 dark:text-slate-200">
           {aboutData.position}
         </h2>
         <p className="mt-4 lg:max-w-xs text-lg leading-relaxed fade-in stagger-2">
