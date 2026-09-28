@@ -22,7 +22,7 @@ export default function Sidebar({
   }, []);
 
   return (
-    <aside className="sidebar lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+    <aside className="sidebar lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-[10%] overflow-auto">
       <div>
         <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl fade-in dark:text-slate-200">
           {aboutData.name}
@@ -31,21 +31,9 @@ export default function Sidebar({
           {aboutData.position}
         </h2>
         <p className="mt-4 lg:max-w-xs text-lg leading-relaxed fade-in stagger-2">
-          Full-Stack engineer with 10+ years of production experience mostly
-          with e-commerce projects and banking. Strong background in optimizing
-          high-load, widely used services. I enjoy solving challengi{" "}
-          <span className="font-bold">Senior Full-Stack Engineer</span> with{" "}
-          <span className="font-bold">10+ years of production experience</span>
-          designing and scaling high-throughput architectures across
-          <span className="font-bold">
-            Enterprise E-commerce, Fintech, and B2B SaaS
-          </span>{" "}
-          ecosystems. Proven track record engineering fault-tolerant
-          transactional systems and designing resilient, highly available
-          multi-tenant SaaS infrastructures. Cloud infrastructure specialist
-          dedicated to driving distributed systems efficiency and architectural
-          performance at scale.ng technical problems that require critical
-          thinking and creative solutions beyond standard approaches.
+          Senior Full-Stack Engineer with 10+ years of production experience
+          designing and scaling high-throughput architectures across Enterprise
+          E-commerce, Fintech, and B2B SaaS ecosystems.
         </p>
 
         {/* <!-- Desktop Navigation --> */}
