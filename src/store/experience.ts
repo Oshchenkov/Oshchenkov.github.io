@@ -163,6 +163,6 @@ export default [
       "Built a high-converting web presence while managing targeted Google Ads campaigns that boosted click-through rates by 20% and significantly reduced customer acquisition costs.",
       "Built and maintained website with php, HTML, CSS, JavaScript.",
     ],
-    skills: ["HTML", "CSS", "JavaScript", "PHP", "jQuery"],
+    skills: ["HTML", "CSS", "TypeScript", "JavaScript", "PHP", "jQuery"],
   },
 ];
