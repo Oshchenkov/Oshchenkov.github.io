@@ -31,7 +31,21 @@ export default function Sidebar({
           {aboutData.position}
         </h2>
         <p className="mt-4 lg:max-w-xs text-lg leading-relaxed fade-in stagger-2">
-          {aboutData.subtitle}
+          Full-Stack engineer with 10+ years of production experience mostly
+          with e-commerce projects and banking. Strong background in optimizing
+          high-load, widely used services. I enjoy solving challengi{" "}
+          <span className="font-bold">Senior Full-Stack Engineer</span> with{" "}
+          <span className="font-bold">10+ years of production experience</span>
+          designing and scaling high-throughput architectures across
+          <span className="font-bold">
+            Enterprise E-commerce, Fintech, and B2B SaaS
+          </span>{" "}
+          ecosystems. Proven track record engineering fault-tolerant
+          transactional systems and designing resilient, highly available
+          multi-tenant SaaS infrastructures. Cloud infrastructure specialist
+          dedicated to driving distributed systems efficiency and architectural
+          performance at scale.ng technical problems that require critical
+          thinking and creative solutions beyond standard approaches.
         </p>
 
         {/* <!-- Desktop Navigation --> */}
