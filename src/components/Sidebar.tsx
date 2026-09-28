@@ -27,7 +27,7 @@ export default function Sidebar({
         <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl fade-in dark:text-slate-200">
           {aboutData.name}
         </h1>
-        <h2 className="my-8 text-lg font-semibold tracking-tight text-slate-800 sm:text-xl fade-in stagger-1 dark:text-slate-200">
+        <h2 className="my-8 text-lg sm:text-4xl  font-semibold tracking-tight text-slate-800 fade-in stagger-1 dark:text-slate-200">
           {aboutData.position}
         </h2>
         <p className="mt-4 lg:max-w-xs text-lg leading-relaxed fade-in stagger-2">
@@ -73,7 +73,7 @@ export default function Sidebar({
         </nav>
       </div>
 
-      <div className="flex items-center  gap-6 lg:mt-4 mt-8 fade-in stagger-4">
+      <div className="flex items-center  gap-6 mt-8 fade-in stagger-4">
         {/* <!-- Social Links --> */}
         <ul
           className="ml-1 flex items-center gap-5 self-center"
